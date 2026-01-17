@@ -1,8 +1,12 @@
 #book {
     display:grid;
-    background:rgb(91, 94, 112);
-    border: 5px dashed rgb(109, 148, 148);
+    background:rgb(39, 25, 25);
+    border: 5px dotted rgb(0, 0, 0);
+    border-left: 5px dashed goldenrod;
     border-radius: 4px;
+    padding-right:12px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .details {
     list-style: none;
@@ -18,7 +22,7 @@
 }
 .title {
     text-align: center;
-    color:rgb(2, 77, 2);
+    color:rgb(17, 143, 17);
 }
 .food {
     display:grid;
