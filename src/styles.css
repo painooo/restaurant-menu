@@ -1,7 +1,7 @@
 #book {
     display:grid;
-    background:gray;
-    border: 10px solid black;
+    background:rgb(91, 94, 112);
+    border: 5px dashed rgb(109, 148, 148);
     border-radius: 4px;
 }
 .details {
@@ -18,9 +18,32 @@
 }
 .title {
     text-align: center;
-    color:green;
+    color:rgb(2, 77, 2);
 }
 .food {
     display:grid;
     list-style: none;
+    padding:15px;
+}
+h2 {padding:15px;}
+.foodContainer {
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    align-items: center;
+    grid-template-areas: 
+        "foodName price"
+        "ingredients price"
+    ;
+}
+.foodName{
+    grid-area:foodName;
+    margin:0;
+}
+.ingredients{
+    grid-area: ingredients;
+    font-size:10px;
+    margin:0;
+}
+.price {
+    grid-area: price;
 }
