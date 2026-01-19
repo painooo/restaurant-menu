@@ -11,6 +11,7 @@
 ul {
     list-style: none;
     padding:0;
+    margin:0;
 }
 .details {
     text-align: center;
@@ -60,17 +61,16 @@ h2 {
     justify-content: left;
 }
 .other {
-    display:flex;
-    flex-wrap:wrap;
-    gap:12px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:6px;
     align-items: center;
-    justify-content: center;
-    padding:12px;
+    padding:6px;
 }
 .other div ul {
     display:flex;
     flex-direction: column;
-    gap:6px;
 }
 .other div h2 {
     margin:0;
