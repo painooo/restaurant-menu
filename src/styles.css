@@ -8,9 +8,11 @@
     color:white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.details {
+ul {
     list-style: none;
     padding:0;
+}
+.details {
     text-align: center;
     display:grid;
     gap:12px;
@@ -29,7 +31,9 @@
     list-style: none;
     padding:15px;
 }
-h2 {padding:15px;}
+h2 {
+    padding:15px;
+}
 .foodContainer {
     display:grid;
     grid-template-columns:2fr 1fr;
@@ -50,4 +54,28 @@ h2 {padding:15px;}
 }
 .price {
     grid-area: price;
+}
+.otherFood {
+    display:flex;
+    justify-content: left;
+}
+.other {
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    align-items: center;
+    justify-content: center;
+    padding:12px;
+}
+.other div ul {
+    display:flex;
+    flex-direction: column;
+    gap:6px;
+}
+.other div h2 {
+    margin:0;
+    padding:0;
+}
+span {
+    margin-left:auto;
 }
